@@ -83,7 +83,7 @@ const fi = (function() {
     
     flatten: function(collection, shallow, newArray = []) {
       if (!Array.isArray(collection)){
-        return newArr.push(collection)
+        return newArray.push(collection)
       }
       if (shallow) {
         for (let value of collection){
